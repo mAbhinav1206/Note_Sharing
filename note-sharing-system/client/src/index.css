@@ -1,0 +1,26 @@
+/* Global stylesheet - imported once in main.jsx */
+
+body {
+  background-color: #f6f7fb;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Cards feel a bit tighter across the app */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Rating stars: remove default button chrome */
+.rating-stars .btn-link {
+  padding: 0;
+  line-height: 1;
+}
+
+.rating-stars .btn-link:disabled {
+  opacity: 1;
+}
+
